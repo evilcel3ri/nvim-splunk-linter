@@ -26,7 +26,7 @@ Run:
 
 ## Use
 
-There is a for the moment one function that will ident your Splunk query but
+There is a for the moment one function that will indent your Splunk query but
 will keep the first line (I know, I'll fix it as soon as I figure the API out).
 
 ```
@@ -51,4 +51,4 @@ test
 
 ## Contribute
 
-You're very welcome. It's my first plugin.
+You're very welcome to do so. It's my first plugin.

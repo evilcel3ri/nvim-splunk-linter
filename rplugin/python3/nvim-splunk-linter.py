@@ -29,4 +29,5 @@ class TestPlugin(object):
                 if i < 0:
                     i = 0
             j = j + 1
+        self.nvim.current.line = ""
         return
