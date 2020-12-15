@@ -26,8 +26,7 @@ Run:
 
 ## Use
 
-There is a for the moment one function that will indent your Splunk query but
-will keep the first line (I know, I'll fix it as soon as I figure the API out).
+There is a for the moment one function that will indent your Splunk query.
 
 ```
 :call LintSplunk()
