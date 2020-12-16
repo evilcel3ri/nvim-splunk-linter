@@ -6,20 +6,20 @@ This plugin will lint your Splunk search. It is quite very experimental for now.
 
 You need Python in your PATH or in your Nvim config:
 
-```
+```vim
 let g:python3_host_prog = '/usr/bin/python3'
 let g:python_host_prog = '/usr/bin/python2'
 ```
 
 Add the plugin to your plugin manager (here with [vim-plug](https://github.com/junegunn/vim-plug)):
 
-```
+```vim
 Plug 'christalib/nvim-splunk-linter'
 ```
 
 Run:
 
-```
+```vim
 :PlugInstall
 :UpdateRemotePlugins
 ```
@@ -43,9 +43,9 @@ test
 	(one
 		(two
 			(three)))
-(one)
-(
-	(two))
+        (one)
+        (
+	        (two))
 ```
 
 ## Contribute
