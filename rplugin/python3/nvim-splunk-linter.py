@@ -4,7 +4,7 @@ import pynvim
 
 
 @pynvim.plugin
-class TestPlugin(object):
+class SplunkLinter(object):
     def __init__(self, nvim):
         self.nvim = nvim
 
@@ -26,8 +26,8 @@ class TestPlugin(object):
                 i = i + 1
             elif len(back) > 1:
                 i = i - len(back)
-                if i < 0:
-                    i = 0
+                if (i < 0 or i == 0) and j != 0:
+                    i = 1
             j = j + 1
         self.nvim.current.line = ""
         return
