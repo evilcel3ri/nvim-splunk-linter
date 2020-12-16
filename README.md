@@ -14,7 +14,7 @@ let g:python_host_prog = '/usr/bin/python2'
 Add the plugin to your plugin manager (here with [vim-plug](https://github.com/junegunn/vim-plug)):
 
 ```vim
-Plug 'christalib/nvim-splunk-linter'
+Plug 'christalib/nvim-splunk-linter', { 'branch': 'main' }
 ```
 
 Run:
